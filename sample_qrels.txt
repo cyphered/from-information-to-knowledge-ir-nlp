@@ -1,0 +1,7 @@
+# Example TREC-style qrels: query_id iteration doc_id relevance
+q1 0 d5 1
+q1 0 d1 0
+q2 0 d2 1
+q2 0 d10 1
+q3 0 d9 1
+q3 0 d13 1
