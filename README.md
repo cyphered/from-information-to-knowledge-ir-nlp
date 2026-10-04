@@ -102,3 +102,30 @@ A natural research question is:
 > How does dense multilingual retrieval compare with classical lexical retrieval for short, domain-specific information needs?
 
 A controlled experiment can compare TF-IDF, BM25 and dense retrieval using the same query set and relevance judgments.
+
+## Screenshots
+
+### 1. Lexical Retrieval
+TF-IDF-based lexical retrieval ranks documents according to query-document similarity.
+
+![Lexical Retrieval](lexical-retrieval.png)
+
+### 2. Dense Semantic Search
+Dense retrieval uses Sentence Transformers and FAISS to retrieve documents based on semantic similarity.
+
+![Semantic Search](semantic-search.png)
+
+### 3. Information Extraction
+Named entities and structured information are extracted from unstructured text using spaCy and lightweight fallback rules.
+
+![Information Extraction](information-extraction.png)
+
+### 4. Question Answering
+The system ranks evidence sentences and returns an extractive answer together with its source document.
+
+![Question Answering](question-answering.png)
+
+### 5. Multilingual Information Access
+The multilingual retrieval interface demonstrates information access across English, Hindi, and Telugu content.
+
+![Multilingual Search](multilingual-search.png)
